@@ -1,7 +1,3 @@
 """
-API client module for fetching stock market data.
+Dashboard module for visualizing stock data.
 """
-from src.api.client import StockAPIClient
-from src.api.rate_limiter import RateLimiter
-
-__all__ = ["StockAPIClient", "RateLimiter"]
